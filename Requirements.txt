@@ -1,0 +1,129 @@
+ 
+Part 1: Neural Network Fundamentals and Training Behavior Analysis
+
+Problem Statement
+
+You are given a structured dataset containing multiple input features and one target variable. Your task is to build and analyze 
+a simple neural network model for a supervised learning problem.
+
+The objective of this part is not only to train a model, but also to clearly demonstrate how neural networks learn through 
+forward pass, loss calculation, backpropagation, and parameter updates.
+
+Dataset
+
+Use the relevant Part 1 dataset from the shared folder:
+https://drive.google.com/drive/folders/1akV6po4Nrgkc3yQrJkzA6cJlV-wBvUYs?usp=sharing
+
+Tasks
+Task 1: Dataset Understanding
+Load the dataset and perform basic exploration.
+Your work should include:
+•	Number of rows and columns
+•	Type of input features
+•	Target variable description
+•	Missing value check
+•	Basic statistical summary
+•	Distribution of the target variable
+
+Task 2: Data Preprocessing
+Prepare the data for neural network training.
+Your preprocessing should include:
+•	Handling missing values, if any
+•	Encoding categorical columns, if present
+•	Scaling or normalizing numerical features
+•	Splitting the dataset into training and testing sets
+
+Task 3: Neural Network Model Building
+Build a feed-forward neural network using Python.
+Your model should include:
+•	Input layer
+•	At least one hidden layer
+•	Activation function in the hidden layer
+•	Output layer suitable for the target variable
+•	Appropriate loss function
+•	Appropriate optimizer
+You may use TensorFlow/Keras or any other suitable deep learning library.
+
+Task 4: Training and Evaluation
+Train the neural network model and evaluate its performance.
+Include:
+•	Training accuracy/loss
+•	Testing accuracy/loss
+•	Confusion matrix or appropriate evaluation metric
+•	Brief interpretation of the result
+
+Task 5: Hyperparameter Experimentation
+Run at least three experiments by changing one or more of the following:
+•	Number of hidden layers
+•	Number of neurons
+•	Learning rate
+•	Batch size
+•	Number of epochs
+•	Activation function
+Create a comparison table showing how each configuration affected model performance.
+
+Task 6: Final Reflection
+Write a short explanation covering:
+•	What role do weights and biases play in the model?
+•	Why is an activation function required?
+•	What happens when learning rate is too high or too low?
+•	Did your model show signs of underfitting or overfitting? Explain.
+
+Expected Repository Contents
+part-1-neural-network-analysis/
+
+├── README.md
+├── notebook.ipynb
+├── requirements.txt
+└── results/
+    ├── model_comparison_table.png or .csv
+    └── evaluation_outputs.png
+
+Submission for Part 1
+Submit only the public GitHub repository link for Part 1 in the Part 1 submission field.
+<Public GitHub Repository Link>
+https://github.com/vasudevangayatri-lab/part-1-neural-network-analysis
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Data Set:
+# Synthetic Dataset Pack for Applied Neural Networks, CNN, NLP, and AI Solution Design Project
+This dataset pack contains independent datasets for each project part.
+## Folder Structure
+```text
+ai_project_synthetic_datasets/
+├── part_1_neural_network_analysis/
+│   ├── customer_churn_nn.csv
+│   └── data_dictionary.md
+├── part_2_cnn_computer_vision/
+│   ├── images/
+│   │   ├── normal/
+│   │   ├── scratch/
+│   │   ├── dent/
+│   │   └── stain/
+│   ├── labels.csv
+│   └── data_dictionary.md
+├── part_3_nlp_sequence_modeling/
+│   ├── customer_support_text_classification.csv
+│   └── data_dictionary.md
+└── part_4_ai_solution_design/
+    ├── ai_usecase_reference_catalog.csv
+    ├── business_kpi_sample.csv
+    └── data_dictionary.md
+```
+## Notes for Students
+- Each part is independent.
+- Do not upload the full dataset to GitHub unless instructed.
+- Mention the dataset source link in your README.
+- Use the relevant folder for the project part you are attempting.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+- Dataset source link:
+Google SharedDrive
+https://drive.google.com/file/d/1VS4UAHiS25bCLSkOAtttfn-_S-6BvL0o/view?usp=drive_link
+file-Id = 1VS4UAHiS25bCLSkOAtttfn-_S-6BvL0o
+
+
+
