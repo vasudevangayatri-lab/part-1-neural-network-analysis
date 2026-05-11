@@ -117,13 +117,4 @@ ai_project_synthetic_datasets/
 - Mention the dataset source link in your README.
 - Use the relevant folder for the project part you are attempting.
 
-
 -------------------------------------------------------------------------------------------------------------------------
-
-- Dataset source link:
-Google SharedDrive
-https://drive.google.com/file/d/1VS4UAHiS25bCLSkOAtttfn-_S-6BvL0o/view?usp=drive_link
-file-Id = 1VS4UAHiS25bCLSkOAtttfn-_S-6BvL0o
-
-
-
